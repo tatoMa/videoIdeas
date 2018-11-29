@@ -63,8 +63,8 @@ const db = require('./config/database')
 // connect to mongoose
 mongoose
   .connect(
-    // db.mongoURI,
-    'mongodb://atzsmm:8pppmm@ds119578.mlab.com:19578/video-idea-traversy',
+    db.mongoURI,
+    // 'mongodb://atzsmm:8pppmm@ds119578.mlab.com:19578/video-idea-traversy',
     { useNewUrlParser: true }
     // {
     //   useMongoClient: true
